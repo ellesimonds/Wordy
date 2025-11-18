@@ -216,7 +216,7 @@ public class WordyActivity extends AppCompatActivity {
         //track used letters in answer to avoid over yellowing duplicates
         boolean[] used = new boolean[5];
 
-        //first pass — mark GREENS
+        //first pass. mark GREENS
         for (int i = 0; i < 5; i++) {
             if (guessChars[i] == answer[i]) {
                 letterBoxes[currentRow][i].setBackgroundColor(0xFF6AAA64); //green
