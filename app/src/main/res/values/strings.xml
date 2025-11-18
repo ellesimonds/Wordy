@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wordy</string>
+    <string name="add_word">Add Word</string>
+    <string name="e_g_hello">e.g., HELLO</string>
+    <string name="enter_a_5_letter_word">Enter a 5-letter word:</string>
+    <string name="add_new_word_to_word_bank">Add New Word to Word Bank</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_all_words_in_database">Clear ALL Words in Database</string>
+</resources>
