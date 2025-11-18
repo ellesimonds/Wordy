@@ -169,13 +169,19 @@ public class CreateWordActivity extends AppCompatActivity {
         wordBankRef.add(newWord)
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        Toast.makeText(getApplicationContext(), "Word '" + wordInput + "' stored successfully!", Toast.LENGTH_SHORT).show();
-                        wordInputField.setText("");
+                        Toast.makeText(getApplicationContext(),
+                                "Word '" + wordInput + "' stored successfully!",
+                                Toast.LENGTH_SHORT).show();
+
+                        finish(); //closes CreateWordActivity and returns to WordyActivity
                     } else {
-                        Toast.makeText(getApplicationContext(), "Error saving word: " + task.getException().getMessage(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),
+                                "Error saving word: " + task.getException().getMessage(),
+                                Toast.LENGTH_LONG).show();
                     }
                 });
     }
+
 
 
     //extra credit logic for clearing the database
