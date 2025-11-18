@@ -186,10 +186,8 @@ public class CreateWordActivity extends AppCompatActivity {
 
     //extra credit logic for clearing the database
     private void clearWordBank() {
-        //get all documents in the 'word_bank' collection
         wordBankRef.get().addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
-                //use a WriteBatch for efficient bulk deletion
                 WriteBatch batch = db.batch(); //researched WriteBatch to use
 
                 if (task.getResult().isEmpty()) {

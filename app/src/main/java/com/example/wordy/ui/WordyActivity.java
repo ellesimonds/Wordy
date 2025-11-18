@@ -25,19 +25,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-
+//This is the main activity logic for the main page!
 public class WordyActivity extends AppCompatActivity {
 
 
     private FirebaseFirestore db;
     private CollectionReference wordBankRef;
-
     private String targetWord = "";
     private int currentRow = 0;
     private final int MAX_TRIES = 6;
     private boolean gameActive = false;
-
-    //UI
     private EditText[][] letterBoxes = new EditText[6][5];
 
     private Button submitButton;
