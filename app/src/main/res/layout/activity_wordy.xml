@@ -13,13 +13,11 @@
         android:id="@+id/game_status_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="WORDY"
+        android:text="@string/wordy"
         android:textSize="24sp"
         android:gravity="center"
         android:paddingBottom="16dp"/>
 
-    <!-- 6 Guess Rows -->
-    <!-- Row 0 -->
     <LinearLayout
         android:id="@+id/guess_row_0"
         android:layout_width="match_parent"
@@ -28,14 +26,18 @@
         android:gravity="center"
         android:paddingVertical="4dp">
 
-        <EditText android:id="@+id/box_0_0" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_0_1" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_0_2" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_0_3" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_0_4" style="@style/WordyLetterBox"/>
+        <EditText android:id="@+id/box_0_0" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_0_1" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_0_2" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_0_3" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_0_4" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
     </LinearLayout>
 
-    <!-- Row 1 -->
     <LinearLayout
         android:id="@+id/guess_row_1"
         android:layout_width="match_parent"
@@ -44,14 +46,19 @@
         android:gravity="center"
         android:paddingVertical="4dp">
 
-        <EditText android:id="@+id/box_1_0" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_1_1" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_1_2" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_1_3" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_1_4" style="@style/WordyLetterBox"/>
+        <EditText android:id="@+id/box_1_0" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_1_1" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_1_2" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_1_3" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_1_4" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
     </LinearLayout>
 
-    <!-- Row 2 -->
+
     <LinearLayout
         android:id="@+id/guess_row_2"
         android:layout_width="match_parent"
@@ -60,14 +67,19 @@
         android:gravity="center"
         android:paddingVertical="4dp">
 
-        <EditText android:id="@+id/box_2_0" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_2_1" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_2_2" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_2_3" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_2_4" style="@style/WordyLetterBox"/>
+        <EditText android:id="@+id/box_2_0" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_2_1" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_2_2" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_2_3" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_2_4" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
     </LinearLayout>
 
-    <!-- Row 3 -->
+
     <LinearLayout
         android:id="@+id/guess_row_3"
         android:layout_width="match_parent"
@@ -76,14 +88,19 @@
         android:gravity="center"
         android:paddingVertical="4dp">
 
-        <EditText android:id="@+id/box_3_0" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_3_1" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_3_2" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_3_3" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_3_4" style="@style/WordyLetterBox"/>
+        <EditText android:id="@+id/box_3_0" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_3_1" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_3_2" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_3_3" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_3_4" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
     </LinearLayout>
 
-    <!-- Row 4 -->
+
     <LinearLayout
         android:id="@+id/guess_row_4"
         android:layout_width="match_parent"
@@ -92,14 +109,19 @@
         android:gravity="center"
         android:paddingVertical="4dp">
 
-        <EditText android:id="@+id/box_4_0" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_4_1" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_4_2" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_4_3" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_4_4" style="@style/WordyLetterBox"/>
+        <EditText android:id="@+id/box_4_0" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_4_1" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_4_2" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_4_3" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_4_4" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
     </LinearLayout>
 
-    <!-- Row 5 -->
+
     <LinearLayout
         android:id="@+id/guess_row_5"
         android:layout_width="match_parent"
@@ -108,11 +130,16 @@
         android:gravity="center"
         android:paddingVertical="4dp">
 
-        <EditText android:id="@+id/box_5_0" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_5_1" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_5_2" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_5_3" style="@style/WordyLetterBox"/>
-        <EditText android:id="@+id/box_5_4" style="@style/WordyLetterBox"/>
+        <EditText android:id="@+id/box_5_0" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_5_1" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_5_2" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_5_3" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
+        <EditText android:id="@+id/box_5_4" style="@style/WordyLetterBox"
+            tools:ignore="LabelFor" />
     </LinearLayout>
 
 
@@ -133,7 +160,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Submit"
+            android:text="@string/submit"
             android:layout_marginEnd="8dp"/>
 
         <Button
@@ -141,7 +168,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Restart"
+            android:text="@string/restart"
             android:layout_marginEnd="8dp"/>
     </LinearLayout>
 
@@ -157,7 +184,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Clear"
+            android:text="@string/clear"
             android:layout_marginEnd="8dp"/>
 
         <Button
@@ -165,7 +192,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Add Word" />
+            android:text="@string/add_word_button" />
     </LinearLayout>
 
 </LinearLayout>

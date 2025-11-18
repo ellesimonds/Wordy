@@ -6,4 +6,9 @@
     <string name="add_new_word_to_word_bank">Add New Word to Word Bank</string>
     <string name="cancel">Cancel</string>
     <string name="clear_all_words_in_database">Clear ALL Words in Database</string>
+    <string name="add_word_button">Add Word</string>
+    <string name="clear">Clear</string>
+    <string name="restart">Restart</string>
+    <string name="submit">Submit</string>
+    <string name="wordy">WORDY</string>
 </resources>
